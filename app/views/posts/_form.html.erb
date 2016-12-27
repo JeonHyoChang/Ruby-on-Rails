@@ -12,23 +12,23 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %>
+    <%= f.label :작성자 %>
     <%= f.text_field :name %>
   </div>
 
   <div class="field">
-    <%= f.label :title %>
+    <%= f.label :제목 %>
     <%= f.text_field :title %>
   </div>
 
   <div class="field">
-    <%= f.label :content %>
+    <%= f.label :설명 %>
     <%= f.text_area :content %>
   </div>
 
   <div class="field">
-    <%= f.label :image %><br>
-    <%= f.file_field :image, accept: 'image/png,image/gif,image/jpeg' %>
+    <%= f.label :사진 %><br>
+    <%= f.file_field :image, accept: 'image/png,image/gif,image/jpeg, image/bmp' %>
   </div>
 
   <div class="actions">
